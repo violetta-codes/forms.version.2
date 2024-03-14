@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+     <script src="htmlforms.js" defer></script>
+     <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+     </style>
+    </head>
+    <body>
+        <form id="userNameForm" autocomplete="off">
+     <input list="names" name="selectedName">
+     <datalist id="names">
+        <option value="Ana">
+        <option value="Bob">
+        <option value="Mark">
+        <option value="John">
+        <option value="Marie">
+     </datalist>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+    </html>
